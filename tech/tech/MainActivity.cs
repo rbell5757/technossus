@@ -14,7 +14,7 @@ using Android.OS;
 namespace tech
 {
 
-	[Activity (Label = "tech", MainLauncher = true)]
+	[Activity (Label = "Login", MainLauncher = true)]
 	public class MainActivity : Activity
 	{
 
@@ -59,7 +59,7 @@ namespace tech
 		{
 			//Thread.Sleep (3000);
 			if (username == "tech") {
-				Intent intent = new Intent (this, typeof(client));
+				Intent intent = new Intent (this, typeof(livefeed));
 				this.StartActivity (intent);
 			} else {
 				FragmentTransaction transaction = FragmentManager.BeginTransaction ();

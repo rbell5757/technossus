@@ -1,4 +1,6 @@
-﻿using System;
+﻿// Execution Test #2
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,7 +16,7 @@ using Android.Support.V4.App;
 
 namespace tech
 {
-	[Activity (Label = "client")]			
+	[Activity (Label = "Client")]			
 	public class client : Activity
 	{
 		DrawerLayout DrawerLayout;
