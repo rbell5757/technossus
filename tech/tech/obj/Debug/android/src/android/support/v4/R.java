@@ -24,22 +24,22 @@ public final class R {
         public static int Imglogo=0x7f07000d;
         public static int InputPassword=0x7f070011;
         public static int InputUsername=0x7f07000f;
-        public static int ToolBar=0x7f070004;
+        public static int ToolBar=0x7f070003;
         public static int ToolBar2=0x7f07000c;
         public static int TxtPassword=0x7f070010;
         public static int TxtUsername=0x7f07000e;
-        public static int available=0x7f070008;
-        public static int background=0x7f070005;
+        public static int available=0x7f070007;
+        public static int background=0x7f070004;
         public static int content_frame=0x7f070001;
-        public static int employeelist=0x7f070003;
+        public static int employeelist=0x7f070002;
         public static int livefeed=0x7f07000b;
         public static int livefeedmain=0x7f07000a;
         public static int main=0x7f070000;
-        public static int name=0x7f070007;
-        public static int picture=0x7f070006;
-        public static int space1=0x7f070009;
+        public static int name=0x7f070006;
+        public static int picture=0x7f070005;
+        public static int space1=0x7f070008;
         public static int switch1=0x7f070012;
-        public static int textView1=0x7f070002;
+        public static int textView1=0x7f070009;
     }
     public static final class layout {
         public static int clients=0x7f030000;
