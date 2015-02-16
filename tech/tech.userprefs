@@ -1,11 +1,11 @@
 ﻿<Properties StartupItem="tech\tech.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.SelectDevice" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="tech\test.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.API 19 KIT" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="tech\client.cs">
     <Files>
-      <File FileName="tech\test.cs" Line="13" Column="13" />
+      <File FileName="tech\test.cs" Line="53" Column="53" />
       <File FileName="tech\packages.config" Line="1" Column="1" />
       <File FileName="tech\MainActivity.cs" Line="1" Column="1" />
-      <File FileName="tech\client.cs" Line="1" Column="1" />
+      <File FileName="tech\client.cs" Line="69" Column="69" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

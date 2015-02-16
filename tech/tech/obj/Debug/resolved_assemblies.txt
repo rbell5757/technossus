@@ -1,2 +1,2 @@
-C:\Users\Carrie\Documents\Projects\tech\tech\bin\Debug\tech.dll
-C:\Users\Carrie\Documents\Projects\tech\packages\Xamarin.Android.Support.v4.21.0.3.0\lib\MonoAndroid10\Xamarin.Android.Support.v4.dll
+C:\Users\Carrie\Desktop\technossus\tech\tech\bin\Debug\tech.dll
+C:\Users\Carrie\Desktop\technossus\tech\packages\Xamarin.Android.Support.v4.21.0.3.0\lib\MonoAndroid10\Xamarin.Android.Support.v4.dll

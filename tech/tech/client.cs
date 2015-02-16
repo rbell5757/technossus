@@ -23,6 +23,12 @@ namespace tech
 		List<string> LeftItem = new List<string> ();
 		ArrayAdapter LeftAdapter;
 		ListView LeftDrawer;
+		ListView employeelist;
+		List<employee> allemployee = new List<employee> ()
+		{
+			new employee(0,null,"Jone","2014/3/2"), new employee(0,null,"James","2014/4/6"),new employee(0,null,"Kate","2015/3/1"),
+			new employee(0,null,"Kate","2015/3/1"),new employee(0,null,"Kate","2015/3/1"),new employee(0,null,"Kate","2015/3/1"),new employee(0,null,"Kate","2015/3/1")		};
+		EmployeeAdapter EmployeeAdapter;
 
 
 		protected override void OnCreate (Bundle bundle)
@@ -34,6 +40,8 @@ namespace tech
 
 			DrawerLayout = FindViewById<DrawerLayout> (Resource.Id.main);
 			LeftDrawer = FindViewById<ListView> (Resource.Id.ToolBar);
+			employeelist = FindViewById<ListView> (Resource.Id.employeelist);
+
 
 			LeftItem.Add ("project 1");
 			LeftItem.Add ("project 2");
@@ -43,9 +51,11 @@ namespace tech
 			LeftItem.Add ("clients");
 			LeftItem.Add ("people");
 
-
 			LeftAdapter = new ArrayAdapter (this, Android.Resource.Layout.SimpleListItem1, LeftItem);
 			LeftDrawer.Adapter = LeftAdapter;
+
+			EmployeeAdapter = new EmployeeAdapter (this, allemployee);
+			employeelist.Adapter = EmployeeAdapter;
 
 		}
 	}

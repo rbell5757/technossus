@@ -54,6 +54,8 @@
     <Compile Include="test.cs" />
     <Compile Include="Resources\AssemblyInfo.cs" />
     <Compile Include="livefeed.cs" />
+    <Compile Include="employee.cs" />
+    <Compile Include="EmployeeAdapter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -70,6 +72,8 @@
     <AndroidResource Include="Resources\layout\clients.axml" />
     <AndroidResource Include="Resources\layout\people.axml" />
     <AndroidResource Include="Resources\layout\livefeed.axml" />
+    <AndroidResource Include="Resources\layout\EmployeeLayout.axml" />
+    <AndroidResource Include="Resources\drawable\contactImage.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <ItemGroup>
