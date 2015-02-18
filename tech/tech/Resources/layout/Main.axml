@@ -5,54 +5,63 @@
     android:layout_height="fill_parent"
     android:minWidth="25px"
     android:minHeight="25px"
-    android:weightSum="100">
+    android:weightSum="100"
+    android:background="@drawable/Background">
     <ImageView
         android:src="@drawable/logo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="10"
-        android:id="@+id/Imglogo" />
+        android:id="@+id/Imglogo"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp" />
     <TextView
         android:text="Username:"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/TxtUsername"
-        android:layout_marginRight="40dp"
-        android:layout_marginLeft="40dp" />
+        android:layout_marginRight="45dp"
+        android:layout_marginLeft="45dp"
+        android:textColor="#ff6d6d6d" />
     <EditText
         android:inputType="text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/InputUsername"
         android:layout_weight="5"
-        android:layout_marginRight="40dp"
-        android:layout_marginLeft="40dp" />
+        android:layout_marginRight="45dp"
+        android:layout_marginLeft="45dp"
+        android:textColor="#ff6d6d6d"
+        android:drawableTop="#ff6d6d6d" />
     <TextView
         android:text="Password:"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/TxtPassword"
-        android:layout_marginRight="40dp"
-        android:layout_marginLeft="40dp" />
+        android:layout_marginRight="45dp"
+        android:layout_marginLeft="45dp"
+        android:textColor="#ff6d6d6d" />
     <EditText
         android:inputType="textPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/InputPassword"
         android:layout_weight="5"
-        android:layout_marginRight="40dp"
-        android:layout_marginLeft="40dp" />
+        android:layout_marginRight="45dp"
+        android:layout_marginLeft="45dp"
+        android:textColor="#ff6d6d6d" />
     <Switch
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/switch1"
         android:text="Remember me: "
         android:layout_weight="5"
-        android:layout_marginRight="40dp"
-        android:layout_marginLeft="40dp"
-        android:checked="true" />
+        android:layout_marginRight="45dp"
+        android:layout_marginLeft="45dp"
+        android:checked="true"
+        android:textColor="#ff6d6d6d" />
     <Button
         android:text="Log in"
         android:layout_width="match_parent"
@@ -60,6 +69,7 @@
         android:id="@+id/BtnLogin"
         android:layout_marginRight="40dp"
         android:layout_marginLeft="40dp"
-        android:background="#ff17598d"
-        android:linksClickable="true" />
+        android:background="#ffcc4a4a"
+        android:linksClickable="true"
+        android:layout_marginTop="10dp" />
 </LinearLayout>

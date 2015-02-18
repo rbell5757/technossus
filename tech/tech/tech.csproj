@@ -74,6 +74,7 @@
     <AndroidResource Include="Resources\layout\livefeed.axml" />
     <AndroidResource Include="Resources\layout\EmployeeLayout.axml" />
     <AndroidResource Include="Resources\drawable\contactImage.png" />
+    <AndroidResource Include="Resources\drawable\Background.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <ItemGroup>
