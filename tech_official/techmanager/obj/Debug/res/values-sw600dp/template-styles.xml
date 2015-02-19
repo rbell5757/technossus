@@ -12,14 +12,4 @@
   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
   See the License for the specific language governing permissions and
   limitations under the License.
-  -->
-
-<resources>
-
-    <style name="Widget.SampleMessage">
-        <item name="android:textAppearance">?android:textAppearanceLarge</item>
-        <item name="android:lineSpacingMultiplier">1.2</item>
-        <item name="android:shadowDy">-6.5</item>
-    </style>
-
-</resources>
+  --><resources><style name="Widget.SampleMessage"><item name="android:textAppearance">?android:textAppearanceLarge</item><item name="android:lineSpacingMultiplier">1.2</item><item name="android:shadowDy">-6.5</item></style></resources>

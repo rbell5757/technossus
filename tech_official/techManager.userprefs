@@ -1,6 +1,10 @@
 ﻿<Properties StartupItem="techmanager\TechManager.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.SelectDevice" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.API 19 KIT" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="techmanager\src\views\NavigationDrawerActivity.cs">
+    <Files>
+      <File FileName="techmanager\src\views\NavigationDrawerActivity.cs" Line="27" Column="27" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
