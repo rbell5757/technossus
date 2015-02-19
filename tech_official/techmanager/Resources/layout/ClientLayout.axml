@@ -27,11 +27,18 @@
             android:id="@+id/name"
             android:layout_toRightOf="@+id/picture" />
         <TextView
-            android:text="available"
+            android:text="ContactName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/available"
+            android:id="@+id/contactName"
             android:layout_toRightOf="@+id/picture"
             android:layout_below="@+id/name" />
+        <TextView
+            android:text="ContactEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/contactEmail"
+            android:layout_toRightOf="@+id/picture"
+            android:layout_below="@+id/contactName" />
     </RelativeLayout>
 </RelativeLayout>

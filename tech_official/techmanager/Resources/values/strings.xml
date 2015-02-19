@@ -20,9 +20,9 @@
         <item>Project2</item>
         <item>Project3</item>
         <item>Project4</item>
-        <item>People</item>
-        <item>Client</item>
-        <item>Project</item>
+        <item>Peoples</item>
+        <item>Clients</item>
+        <item>Projects</item>
     </string-array>
     <string name="drawer_open">Open navigation drawer</string>
     <string name="drawer_close">Close navigation drawer</string>

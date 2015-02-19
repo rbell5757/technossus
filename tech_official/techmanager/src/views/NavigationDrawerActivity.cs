@@ -149,14 +149,14 @@ namespace NavigationDrawer
 				break;
 			case 3: // Project 4
 				break;
-			case 4: // Peopl Screen
+			case 4: // People Screen
 				// update the main content by replacing fragments
-				var fragment = PeopleFragment.NewInstance (position);
+				var peopleFragment = PeopleFragment.NewInstance (position);
 
-				var fragmentManager = this.FragmentManager;
-				var ft = fragmentManager.BeginTransaction ();
-				ft.Replace (Resource.Id.content_frame, fragment);
-				ft.Commit ();
+				var peopleFragmentManager = this.FragmentManager;
+				var peopleFt = peopleFragmentManager.BeginTransaction ();
+				peopleFt.Replace (Resource.Id.content_frame, peopleFragment);
+				peopleFt.Commit ();
 
 				// update selected item title, then close the drawer
 				Title = mMenuTitles [position];
@@ -164,8 +164,31 @@ namespace NavigationDrawer
 
 				break;
 			case 5: // Client Screen
+				// update the main content by replacing fragments
+				var clientFragment = ClientFragment.NewInstance (position);
+
+				var clientFragmentManager = this.FragmentManager;
+				var clientFt = clientFragmentManager.BeginTransaction ();
+				clientFt.Replace (Resource.Id.content_frame, clientFragment);
+				clientFt.Commit ();
+
+				// update selected item title, then close the drawer
+				Title = mMenuTitles [position];
+				mDrawerLayout.CloseDrawer (mDrawerList);
+
 				break;
 			case 6: // Project Screen
+				var projectFragment = ProjectFragment.NewInstance (position);
+
+				var projectFragmentManager = this.FragmentManager;
+				var projectFt = projectFragmentManager.BeginTransaction ();
+				projectFt.Replace (Resource.Id.content_frame, projectFragment);
+				projectFt.Commit ();
+
+				// update selected item title, then close the drawer
+				Title = mMenuTitles [position];
+				mDrawerLayout.CloseDrawer (mDrawerList);
+
 				break;
 			}
 		}

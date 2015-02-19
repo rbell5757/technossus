@@ -134,32 +134,44 @@ namespace NavigationDrawer
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f09000f
-			public const int BtnLogin = 2131296271;
-			
-			// aapt resource value: 0x7f090009
-			public const int Imglogo = 2131296265;
-			
-			// aapt resource value: 0x7f09000d
-			public const int InputPassword = 2131296269;
-			
-			// aapt resource value: 0x7f09000b
-			public const int InputUsername = 2131296267;
+			// aapt resource value: 0x7f090012
+			public const int BtnLogin = 2131296274;
 			
 			// aapt resource value: 0x7f09000c
-			public const int TxtPassword = 2131296268;
+			public const int Imglogo = 2131296268;
 			
-			// aapt resource value: 0x7f09000a
-			public const int TxtUsername = 2131296266;
+			// aapt resource value: 0x7f090010
+			public const int InputPassword = 2131296272;
 			
-			// aapt resource value: 0x7f090011
-			public const int action_websearch = 2131296273;
+			// aapt resource value: 0x7f09000e
+			public const int InputUsername = 2131296270;
 			
-			// aapt resource value: 0x7f090006
-			public const int available = 2131296262;
+			// aapt resource value: 0x7f09000f
+			public const int TxtPassword = 2131296271;
+			
+			// aapt resource value: 0x7f09000d
+			public const int TxtUsername = 2131296269;
+			
+			// aapt resource value: 0x7f090016
+			public const int action_websearch = 2131296278;
+			
+			// aapt resource value: 0x7f090009
+			public const int available = 2131296265;
+			
+			// aapt resource value: 0x7f090004
+			public const int background = 2131296260;
+			
+			// aapt resource value: 0x7f090015
+			public const int clientName = 2131296277;
 			
 			// aapt resource value: 0x7f090003
-			public const int background = 2131296259;
+			public const int clientlist = 2131296259;
+			
+			// aapt resource value: 0x7f090008
+			public const int contactEmail = 2131296264;
+			
+			// aapt resource value: 0x7f090007
+			public const int contactName = 2131296263;
 			
 			// aapt resource value: 0x7f090001
 			public const int content_frame = 2131296257;
@@ -167,26 +179,29 @@ namespace NavigationDrawer
 			// aapt resource value: 0x7f090000
 			public const int drawer_layout = 2131296256;
 			
-			// aapt resource value: 0x7f090010
-			public const int employeelist = 2131296272;
+			// aapt resource value: 0x7f090013
+			public const int employeelist = 2131296275;
 			
 			// aapt resource value: 0x7f090002
 			public const int left_drawer = 2131296258;
 			
+			// aapt resource value: 0x7f090006
+			public const int name = 2131296262;
+			
 			// aapt resource value: 0x7f090005
-			public const int name = 2131296261;
+			public const int picture = 2131296261;
 			
-			// aapt resource value: 0x7f090004
-			public const int picture = 2131296260;
+			// aapt resource value: 0x7f090014
+			public const int projectlist = 2131296276;
 			
-			// aapt resource value: 0x7f090007
-			public const int space1 = 2131296263;
+			// aapt resource value: 0x7f09000a
+			public const int space1 = 2131296266;
 			
-			// aapt resource value: 0x7f09000e
-			public const int switch1 = 2131296270;
+			// aapt resource value: 0x7f090011
+			public const int switch1 = 2131296273;
 			
-			// aapt resource value: 0x7f090008
-			public const int textView1 = 2131296264;
+			// aapt resource value: 0x7f09000b
+			public const int textView1 = 2131296267;
 			
 			static Id()
 			{
@@ -205,19 +220,31 @@ namespace NavigationDrawer
 			public const int activity_navigation_drawer = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int drawer_list_item = 2130903041;
+			public const int client = 2130903041;
 			
 			// aapt resource value: 0x7f030002
-			public const int EmployeeLayout = 2130903042;
+			public const int ClientLayout = 2130903042;
 			
 			// aapt resource value: 0x7f030003
-			public const int Invalid = 2130903043;
+			public const int drawer_list_item = 2130903043;
 			
 			// aapt resource value: 0x7f030004
-			public const int Main = 2130903044;
+			public const int EmployeeLayout = 2130903044;
 			
 			// aapt resource value: 0x7f030005
-			public const int people = 2130903045;
+			public const int Invalid = 2130903045;
+			
+			// aapt resource value: 0x7f030006
+			public const int Main = 2130903046;
+			
+			// aapt resource value: 0x7f030007
+			public const int people = 2130903047;
+			
+			// aapt resource value: 0x7f030008
+			public const int project = 2130903048;
+			
+			// aapt resource value: 0x7f030009
+			public const int ProjectLayout = 2130903049;
 			
 			static Layout()
 			{
